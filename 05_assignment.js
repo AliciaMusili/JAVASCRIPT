@@ -49,3 +49,7 @@ const marks = [85, 70, 55, 45, 30, -5, 105];
 [85, 70, 55, 45, 30, -5, 105].forEach(mark => {
     console.log(`Mark: ${mark}, Grade: ${gradeSystem(mark)}`);
 });
+
+
+// EXPLAIN the logEvenNumbers function
+ 
