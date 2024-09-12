@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <style>
+        button{
+            font-size: 30px;
+            font-weight: bold;
+            background-color: aquamarine;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>An image Slider</h1>
+
+    <div class="my-slider">
+        <img id="image-one" class="item active" src="/alicia1.jpg.jpg" alt="">
+        <img id="image-two" class="item" src="/alicia2.jpg.jpg" alt="">
+        <img id="image-three" class="item" src="/alicia3.jpg.jpg" alt="">
+        
+    </div>
+
+    <button id="next">Next</button>
+    <button id="prev">Prev</button>
+    
+    <script src="slider.js"></script>
+
+    <!-- <h1> Counter </h1>
+    <h2 id="count">0</h2>
+    <button id="plus" >+</button>
+    <button id="minus" >-</button> -->
+    <!-- <script >
+        const countEl = document.getElementById("count")
+        const plusBtnEl = document.getElementById("plus")
+        const minusBtnEl = document.getElementById("minus")
+
+        let count = parseInt(countEl.textContent)
+
+        plusBtnEl.addEventListener("click", ()=>{
+            count = count + 1
+            countEl.textContent = count
+        } )
+        minusBtnEl.addEventListener("click", ()=>{
+            count = count - 1
+            countEl.textContent = count
+        } )
+
+        console.log( minusBtnEl.id ); // geting the id of an element
+
+        minusBtnEl.setAttribute("type", "submit")
+        minusBtnEl.setAttribute("class", "hello js ghh")
+ 
+    </script> -->
+</body>
+</html>
